@@ -1,3 +1,4 @@
+function EcuacionLogaritmicaCaso4()
 clc
 clear all;
 

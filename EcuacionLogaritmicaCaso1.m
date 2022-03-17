@@ -1,3 +1,4 @@
+function EcuacionLogaritmicaCaso1()
 clc
 clear all;
 
@@ -9,10 +10,10 @@ a = input ('Ingrese el valor de a   ');
 b = input ('Ingrese el valor de b   ');
 c = input ('Ingrese el valor de c   ');
 
-x = linspace (-20, 20, 100);
+x = linspace (-20, 20, 50);
 y = log10(b*x + c)./log10(a);
 
-z = -c ./ b;
+z = -c./b;
 
 plot (x,y);
 

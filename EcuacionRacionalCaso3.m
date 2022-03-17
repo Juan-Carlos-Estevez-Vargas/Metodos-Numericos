@@ -1,3 +1,4 @@
+function EcuacionRacionalCaso3()
 clc
 clear all;
 
@@ -11,7 +12,7 @@ C=input('Ingrese el valor de C: ');
 D=input('Ingrese el valor de D: ');
 E=input('Ingrese el valor de E: ');
 
-x = linspace (-10, 10, 100);
+x = linspace (-20, 20, 50);
 
 y= (A*x.^2 + B*x + C )./(D*x + E);
 

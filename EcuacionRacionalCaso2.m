@@ -1,3 +1,4 @@
+function EcuacionRacionalCaso2
 clc
 clear all;
 
@@ -10,7 +11,7 @@ B=input('Ingrese el valor de B: ');
 C=input('Ingrese el valor de C: ');
 D=input('Ingrese el valor de D: ');
 
-x = linspace (-10, 10, 100);
+x = linspace (-20, 20, 50);
 y= (A*x + B)./(C*x + D);
 
 plot (x,y);

@@ -1,3 +1,4 @@
+function EcuacionCuadratica
 clear all;
 clc;
 
@@ -32,7 +33,7 @@ else
     fprintf('La segunda solución de la ecuación cuadratica es %2.2f + %2.2f i\n',X2,X4);
 end
 
-x = -500:0.01:500;
+x = -50:0.01:50;
 y= A*x.^2 + B*x + C;
 
 plot (x,y);

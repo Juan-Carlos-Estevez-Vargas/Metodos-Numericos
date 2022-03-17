@@ -1,3 +1,4 @@
+function EcuacionLineal()
 clc
 clear all;
 
@@ -8,7 +9,7 @@ disp ('Sea la funcion ax + b :');
 a = input ('Ingrese el valor de a   ');
 b = input ('Ingrese el valor de b   ');
 
-x = -500:0.01:500;
+x = -50:0.01:50;
 y= a*x + b;
 
 plot (x,y);

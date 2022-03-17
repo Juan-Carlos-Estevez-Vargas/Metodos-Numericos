@@ -1,3 +1,4 @@
+function EcuacionRacionalCaso1
 clc
 clear all;
 
@@ -10,7 +11,7 @@ B=input('Ingrese el valor de B: ');
 C=input('Ingrese el valor de C: ');
 
 
-x = linspace (-10, 10, 100);
+x = linspace (-25, 25, 50);
 y= A./ (B*x + C);
 
 plot (x,y);

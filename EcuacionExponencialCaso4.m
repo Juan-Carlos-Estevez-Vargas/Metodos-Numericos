@@ -1,11 +1,12 @@
+function EcuacionExponencialCaso4()
 clc
 clear all;
 
 disp ('Calculo del dominio y rango de funciones');
-disp ('Funcion Exponencial Caso 4');
-disp ('Sea la funcion a^((bx + c) / (dx^2 + ex + f)) :');
+disp ('Funcion Racional Caso 4');
+disp ('Sea la funcion A^((Bx + C) / (Dx^2 + Ex + F)) :');
 
-global A B C E F G X1 X2 X3 X4 D 
+global A B C E F X1 X2 X3 X4 D 
 
 A=input('Ingrese el valor de A: ');
 B=input('Ingrese el valor de B: ');
@@ -34,10 +35,9 @@ else
     fprintf('La segunda solución de la ecuación cuadratica es %2.2f + %2.2f i\n',X2,X4);
 end
 
-x = linspace (-20, 20, 100);
+x = linspace (-20, 20, 50);
 y = A.^((B*x + C)./(D*x.^2 + E*x + F));
 
 plot (x,y);
 
-disp ("El dominio es: ["+ X1 + ", ?)");
-disp ("El dominio es: (-?, " + X2 + ") U (" + X2 + ", " + X1 + ") U ("+ X1 + ", ?)");
+disp ("El dominio es: (-?, " + X1 + ") U (" + X1 + ", " + X2 + ") U ("+ X2 + ", ?)");

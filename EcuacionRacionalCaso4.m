@@ -1,3 +1,4 @@
+function EcuacionRacionalCaso4()
 clc
 clear all;
 
@@ -33,7 +34,7 @@ else
     fprintf('La segunda solución de la ecuación cuadratica es %2.2f + %2.2f i\n',X2,X4);
 end
 
-x = linspace (-20, 20, 100);
+x = linspace (-20, 20, 50);
 y = (A*x + B)./(C*x.^2 + D*x + E);
 
 plot (x,y);

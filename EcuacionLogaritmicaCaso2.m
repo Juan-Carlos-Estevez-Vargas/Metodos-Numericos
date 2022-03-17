@@ -1,3 +1,4 @@
+function EcuacionLogaritmicaCaso2()
 clc
 clear all;
 
@@ -18,4 +19,4 @@ y = log10((B*x + C)./(D*x + E))./log10(A);
 W = -E./D;
 plot (x,y);
 
-disp ("El dominio es: ("+ W + ", ?)");
+disp ("El dominio es: (?, " + -W  + ") U ("+ W + ", ?)");

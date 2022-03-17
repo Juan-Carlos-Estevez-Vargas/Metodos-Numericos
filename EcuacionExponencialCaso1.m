@@ -1,3 +1,4 @@
+function EcuacionExponencialCaso1()
 clc
 clear all;
 
@@ -9,9 +10,7 @@ A=input('Ingrese el valor de A: ');
 B=input('Ingrese el valor de B: ');
 C=input('Ingrese el valor de C: ');
 
-
-
-x = linspace (-10, 10, 100);
+x = linspace (-10, 1, 50);
 y = A.^(B*x + C);
 
 plot (x,y);
