@@ -1,0 +1,47 @@
+%Calcula una tabla de valores de ini a fin con un intervalo de h para una determinada ecuacion
+clc
+y = [];
+x = [];
+disp ('Introduzca la función que desea calcular:')
+ecuacion = input('y(x) = ','s');
+
+%Introducimos los límites de la gráfica
+while (1),
+    ini = input('Introduzca el valor inicial:  ');
+    fin = input('Introduzca el valor final:  ');
+    %Comprobamos que ini>=fin
+    if ini>fin
+       disp('El valor iniclal no puede ser mayor que el valor final.')
+    elseif ini<=fin,
+       break;
+    end;
+end;
+while (1),
+   h=input('Introduzca el incremento:  ');
+   if h>0 && (abs(ini)+abs(fin))>h,
+      break;
+   end;
+end;
+
+%Calculamos la y para cada valor de x
+temp = inline(ecuacion);
+for x=ini:h:fin,
+    y = [y temp(x)];
+end;
+x=ini:h:fin;
+
+%Introducimos los datos en una variable llamada funcion
+funcion{length(x)+1,2}=[];
+funcion{1,1}='x';
+funcion{1,2}='y(x)';
+for i=1:length(x),
+    funcion{i+1,1}=x(i);
+    funcion{i+1,2}=y(i);
+end;
+
+%Mostramos la tabla de valores
+clc;
+disp(['y(x)=' ecuacion])
+disp(' ')
+disp(funcion)
+clear;

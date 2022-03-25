@@ -1,5 +1,4 @@
 function EcuacionLineal()
-
 clc
 clear all;
 
@@ -11,9 +10,8 @@ a = input ('Ingrese el valor de a   ');
 b = input ('Ingrese el valor de b   ');
 
 x = -50:0.01:50;
-y = a*x + b;
+y= a*x + b;
 
 plot (x,y);
-
 
 disp ('El dominio es: (-?, ?)');
