@@ -2,6 +2,7 @@
 clc
 y = [];
 x = [];
+w = [];
 disp ('Introduzca la función que desea calcular:')
 ecuacion = input('y(x) = ','s');
 
@@ -40,8 +41,71 @@ for i=1:length(x),
 end;
 
 %Mostramos la tabla de valores
-clc;
 disp(['y(x)=' ecuacion])
 disp(' ')
 disp(funcion)
+
+disp('Semillas de la función')
+if (y(1) < 0 & y(2) >= 0) | (y(1) >= 0 & y(2) < 0 )
+    disp (19 / 2)  
+end
+if (y(2) < 0 & y(3) >= 0) | (y(2) >= 0 & y(3) < 0 )
+    disp (-17 / 2)
+end
+if (y(3) < 0 & y(4) >= 0) | (y(3) >= 0 & y(4) < 0 )
+    disp (-15 / 2)
+end
+if (y(4) < 0 & y(5) >= 0) | (y(4) >= 0 & y(5) < 0 )
+    disp (-13 / 2)
+end
+if (y(5) < 0 & y(6) >= 0) | (y(5) >= 0 & y(6) < 0 )
+    disp (-11 / 2)
+end
+if (y(6) < 0 & y(7) >= 0) | (y(6) >= 0 & y(7) < 0 )
+    disp (-9 / 2)
+end
+if (y(7) < 0 & y(8) >= 0) | (y(7) >= 0 & y(8) < 0 )
+    disp (-7 / 2)
+end
+if (y(8) < 0 & y(9) >= 0) | (y(8) >= 0 & y(9) < 0 )
+    disp (-5 / 2)
+end
+if (y(9) < 0 & y(10) >= 0) | (y(9) >= 0 & y(10) < 0 )
+    disp (-3 / 2)
+end
+if (y(10) < 0 & y(11) >= 0) | (y(10) >= 0 & y(11) < 0 )
+    disp (-1 / 2)
+end
+if (y(11) < 0 & y(12) >= 0) | (y(11) >= 0 & y(12) < 0 )
+    disp (1 / 2)
+end
+if (y(12) < 0 & y(13) >= 0) | (y(12) >= 0 & y(13) < 0 )
+    disp (3 / 2)
+end
+if (y(13) < 0 & y(14) >= 0) | (y(13) >= 0 & y(14) < 0 )
+    disp (5 / 2)
+end
+if (y(14) < 0 & y(15) >= 0) | (y(14) >= 0 & y(15) < 0 )
+    disp (7 / 2)
+end
+if (y(15) < 0 & y(16) >= 0) | (y(15) >= 0 & y(16) < 0 )
+    disp (9 / 2)
+end
+if (y(16) < 0 & y(17) >= 0) | (y(16) >= 0 & y(17) < 0 )
+    disp (11 / 2)
+end
+if (y(17) < 0 & y(18) >= 0) | (y(17) >= 0 & y(18) < 0 )
+    disp (13 / 2)
+end
+if (y(18) < 0 & y(19) >= 0) | (y(18) >= 0 & y(19) < 0 )
+    disp (15 / 2)
+end
+if (y(19) < 0 & y(20) >= 0) | (y(19) >= 0 & y(20) < 0 )
+    disp (17 / 2)
+end
+if (y(20) < 0 & y(21) >= 0) | (y(20) >= 0 & y(21) < 0 )
+    disp (19 / 2)
+end
+
+
 clear;
