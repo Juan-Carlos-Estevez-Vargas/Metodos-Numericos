@@ -1,4 +1,4 @@
-function MetodoDeBiseccion(f, a, b)
+function Biseccion(f, a, b)
 
 %f = input('Ingrese la función (en comilla sencilla):  ');
 f = inline(f);
