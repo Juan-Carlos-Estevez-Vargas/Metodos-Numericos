@@ -1,10 +1,5 @@
 function Biseccion(f, a, b)
-
-%f = input('Ingrese la función (en comilla sencilla):  ');
 f = inline(f);
-
-%a = input('Ingrese el límite inferior del intervalo:  ');
-%b = input('Ingrese el límite superior del intervalo:  ');
 tolerancia = input('Ingrese el error máximo permitido:  ');
 
 if (f(a)*f(b) > 0)
