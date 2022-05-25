@@ -1,3 +1,5 @@
+%Para ejecutar el método, debes ejecutar el fichero 'MetodoDeReglaFalsa.m',
+%esta es solo una implementación.
 function ReglaFalsa(f, xa, xb)
 f = inline(f);
 T = input('Ingrese el valor de la tolerancia  ');
