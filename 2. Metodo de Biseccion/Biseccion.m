@@ -1,3 +1,5 @@
+%Para ejecutar el método, debes ejecutar el fichero 'MetodoBisección.m',
+%esta es solo una implementación.
 function Biseccion(f, a, b)
 f = inline(f);
 tolerancia = input('Ingrese el error máximo permitido:  ');
@@ -23,4 +25,5 @@ while (abs(b - a) > tolerancia)
     contador = contador + 1;
     fprintf('\nIteración %d, intervalo [%f, %f]', contador, a, b);
 end
-fprintf('\n\n');
+fprintf('\n\nRaíz encontrada en: ');
+disp(a)
