@@ -8,8 +8,8 @@ ecuacion = input('y(x) = ','s');
 
 %Introducimos los límites de la gráfica
 while (1),
-    ini = input('Introduzca el valor inicial:  ');
-    fin = input('Introduzca el valor final:  ');
+    ini = input('Introduzca el valor inicial a calcular la tabla de valores:  ');
+    fin = input('Introduzca el valor final a calcular la tabla de valores:  ');
     %Comprobamos que ini>=fin
     if ini>fin
        disp('El valor iniclal no puede ser mayor que el valor final.')
@@ -31,6 +31,10 @@ for x=ini:h:fin,
 end;
 x=ini:h:fin;
 
+plot(x,y);
+hold on;
+grid on;
+
 %Introducimos los datos en una variable llamada funcion
 funcion{length(x)+1,2}=[];
 funcion{1,1}='x';
@@ -47,82 +51,102 @@ disp(funcion)
 
 disp('Semillas de la función')
 if (y(1) < 0 & y(2) >= 0) | (y(1) >= 0 & y(2) < 0 )
+    disp('Semilla encontrada')
     disp (-19 / 2)  
     Biseccion(ecuacion, -10, -9);
 end
 if (y(2) < 0 & y(3) >= 0) | (y(2) >= 0 & y(3) < 0 )
+    disp('Semilla encontrada')
     disp (-17 / 2)
     Biseccion(ecuacion, -9, -8);
 end
 if (y(3) < 0 & y(4) >= 0) | (y(3) >= 0 & y(4) < 0 )
+    disp('Semilla encontrada')
     disp (-15 / 2)
     Biseccion(ecuacion, -8, -7);
 end
 if (y(4) < 0 & y(5) >= 0) | (y(4) >= 0 & y(5) < 0 )
+    disp('Semilla encontrada')
     disp (-13 / 2)
     Biseccion(ecuacion, -7, -6);
 end
 if (y(5) < 0 & y(6) >= 0) | (y(5) >= 0 & y(6) < 0 )
+    disp('Semilla encontrada')
     disp (-11 / 2)
     Biseccion(ecuacion, -6, -5);
 end
 if (y(6) < 0 & y(7) >= 0) | (y(6) >= 0 & y(7) < 0 )
+    disp('Semilla encontrada')
     disp (-9 / 2)
     Biseccion(ecuacion, -5, -4);
 end
 if (y(7) < 0 & y(8) >= 0) | (y(7) >= 0 & y(8) < 0 )
+    disp('Semilla encontrada')
     disp (-7 / 2)
     Biseccion(ecuacion, -4, -3);
 end
 if (y(8) < 0 & y(9) >= 0) | (y(8) >= 0 & y(9) < 0 )
+    disp('Semilla encontrada')
     disp (-5 / 2)
     Biseccion(ecuacion, -3, -2);
 end
 if (y(9) < 0 & y(10) >= 0) | (y(9) >= 0 & y(10) < 0 )
+    disp('Semilla encontrada')
     disp (-3 / 2)
     Biseccion(ecuacion, -2, -1);
 end
 if (y(10) < 0 & y(11) >= 0) | (y(10) >= 0 & y(11) < 0 )
+    disp('Semilla encontrada')
     disp (-1 / 2)
     Biseccion(ecuacion, -1, 0);
 end
 if (y(11) < 0 & y(12) >= 0) | (y(11) >= 0 & y(12) < 0 )
+    disp('Semilla encontrada')
     disp (1 / 2)
     Biseccion(ecuacion, 0, 1);
 end
 if (y(12) < 0 & y(13) >= 0) | (y(12) >= 0 & y(13) < 0 )
+    disp('Semilla encontrada')
     disp (3 / 2)
     Biseccion(ecuacion, 1, 2);
 end
 if (y(13) < 0 & y(14) >= 0) | (y(13) >= 0 & y(14) < 0 )
+    disp('Semilla encontrada')
     disp (5 / 2)
     Biseccion(ecuacion, 2, 3);
 end
 if (y(14) < 0 & y(15) >= 0) | (y(14) >= 0 & y(15) < 0 )
+    disp('Semilla encontrada')
     disp (7 / 2)
     Biseccion(ecuacion, 3, 4);
 end
 if (y(15) < 0 & y(16) >= 0) | (y(15) >= 0 & y(16) < 0 )
+    disp('Semilla encontrada')
     disp (9 / 2)
     Biseccion(ecuacion, 4, 5);
 end
 if (y(16) < 0 & y(17) >= 0) | (y(16) >= 0 & y(17) < 0 )
+    disp('Semilla encontrada')
     disp (11 / 2)
     Biseccion(ecuacion, 5, 6);
 end
 if (y(17) < 0 & y(18) >= 0) | (y(17) >= 0 & y(18) < 0 )
+    disp('Semilla encontrada')
     disp (13 / 2)
     Biseccion(ecuacion, 6, 7);
 end
 if (y(18) < 0 & y(19) >= 0) | (y(18) >= 0 & y(19) < 0 )
+    disp('Semilla encontrada')
     disp (15 / 2)
     Biseccion(ecuacion, 7, 8);
 end
 if (y(19) < 0 & y(20) >= 0) | (y(19) >= 0 & y(20) < 0 )
+    disp('Semilla encontrada')
     disp (17 / 2)
     Biseccion(ecuacion, 8, 9);
 end
 if (y(20) < 0 & y(21) >= 0) | (y(20) >= 0 & y(21) < 0 )
+    disp('Semilla encontrada')
     disp (19 / 2)
     Biseccion(ecuacion, 9, 10);
 end
