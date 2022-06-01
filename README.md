@@ -10,6 +10,7 @@ Los métodos numéricos presentes en el repositorio son:
 * Método de la falsa posición o regla falsa.
 * Método de extrapolación de Richardson (Diferenciación numérica).
 * Método de Newton-Raphson.
+* Método del Punto Fijo.
 
 # Mis redes sociales
 
