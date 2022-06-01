@@ -12,6 +12,7 @@ Los métodos numéricos presentes en el repositorio son:
 * Método de Newton-Raphson.
 * Método del Punto Fijo.
 * Interpolación Simple.
+* Ajuste de Curvas.
 
 # Mis redes sociales
 
