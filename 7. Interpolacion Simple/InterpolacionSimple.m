@@ -5,14 +5,12 @@ y = [];
 x = [];
 n = input('Introduzca la cantidad de puntos: ');
 
-disp ();
 disp ('A continuación, ingrese los valor de x')
 for i=1:n
     a = input('Ingrese un valor númerico ');
     x = [x, a];
 end
 
-disp ();
 disp ('A continuación, ingrese los valor de y')
 for i=1:n
     a = input('Ingrese un valor númerico ');
