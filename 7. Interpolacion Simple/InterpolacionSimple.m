@@ -1,4 +1,5 @@
-%Calcula una tabla de valores de ini a fin con un intervalo de h para una determinada ecuacion
+% Encuentra una ecuación aproximada a ciertos puntos suministrados como
+% tabla de valores.
 clc
 y = [];
 x = [];
