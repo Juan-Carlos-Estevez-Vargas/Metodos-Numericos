@@ -1,4 +1,3 @@
-%Calcula una tabla de valores de ini a fin con un intervalo de h para una determinada ecuacion
 clc
 y = [];
 x = [];
