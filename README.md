@@ -13,6 +13,7 @@ Los métodos numéricos presentes en el repositorio son:
 * Método del Punto Fijo.
 * Interpolación Simple.
 * Ajuste de Curvas.
+* Método de Interpolación de Lagrange.
 
 # Mis redes sociales
 
