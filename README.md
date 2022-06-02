@@ -15,6 +15,7 @@ Los métodos numéricos presentes en el repositorio son:
 * Ajuste de Curvas.
 * Método de Interpolación de Lagrange.
 * Método de Interpolación Polinómica de Newton.
+* Método de Interpolación de Vandermonde.
 
 # Mis redes sociales
 
