@@ -8,7 +8,7 @@ Los métodos numéricos presentes en el repositorio son:
 * Cálculo de las raíces de diferentes tipos de funciones.
 * Método de bisección.
 * Método de la falsa posición o regla falsa.
-* Método de extrapolación de Richardson (Diferenciación numérica).
+* Método de extrapolación de Richardson (Diferenciación Numérica).
 * Método de Newton-Raphson.
 * Método del Punto Fijo.
 * Interpolación Simple.
@@ -16,6 +16,7 @@ Los métodos numéricos presentes en el repositorio son:
 * Método de Interpolación de Lagrange.
 * Método de Interpolación Polinómica de Newton.
 * Método de Interpolación de Vandermonde.
+* Método del trapecio (Integración Numérica).
 
 # Mis redes sociales
 
