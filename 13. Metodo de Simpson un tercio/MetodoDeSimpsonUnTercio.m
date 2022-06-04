@@ -1,6 +1,6 @@
 clc
 
-fprintf('\t\tCALCULO DEL AREA POR EL METODO DE TRAPECIO\n');
+fprintf('\t\tCALCULO DEL AREA POR EL METODO DE SiIMPSON 1/3\n');
 f=input('ingrese la funcion \n f(x)=','s');
 b=input('ingrese el limite superior de la integral´ ');
 a=input('ingrese el limite inferior de la integral  ');
