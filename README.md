@@ -19,6 +19,7 @@ Los métodos numéricos presentes en el repositorio son:
 * Método del trapecio (Integración Numérica).
 * Método de Simpson Simple 1/3.
 * Método de Simpson Simple 3/8.
+* Método de Euler.
 
 # Mis redes sociales
 
