@@ -20,6 +20,7 @@ Los métodos numéricos presentes en el repositorio son:
 * Método de Simpson Simple 1/3.
 * Método de Simpson Simple 3/8.
 * Método de Euler.
+* Método de Euler mejorado (Heun).
 
 # Mis redes sociales
 
