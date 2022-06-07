@@ -21,6 +21,7 @@ Los métodos numéricos presentes en el repositorio son:
 * Método de Simpson Simple 3/8.
 * Método de Euler.
 * Método de Euler mejorado (Heun).
+* Método de Runge Kutta de Cuarto Orden.
 
 # Mis redes sociales
 
