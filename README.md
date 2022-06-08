@@ -6,31 +6,32 @@ Los ejercicios están divididos en carpetas, las cuales cada una de ellas consta
 Los métodos numéricos presentes en el repositorio son:
 
 ## Raices de funciones lineales.
-* Cálculo de las raíces de diferentes tipos de funciones.
+* [Cálculo de las raíces de diferentes tipos de funciones.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/tree/master/01.%20Funciones)
 
 ## Raices de funciones NO lineales.
 * [Método de bisección.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/tree/master/02.%20Metodo%20de%20Biseccion)
-* Método de la falsa posición o regla falsa.
+* [Método de la falsa posición o regla falsa.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/tree/master/03.%20Metodo%20Regla%20Falsa)
 * Método de extrapolación de Richardson (Diferenciación Numérica).
-* Método de Newton-Raphson.
-* Método del Punto Fijo.
+* [Método de Newton-Raphson.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/tree/master/05.%20Metodo%20Newton-Raphson)
+* [Método del Punto Fijo.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/tree/master/06.%20Metodo%20del%20Punto%20Fijo)
+* [Método de la Secante](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/18.%20Metodo%20de%20la%20Secante/MetodoDeLaSecante.m)
 
 ## Interpolación y Ajuste de Curvas.
-* Interpolación Simple.
-* Ajuste de Curvas.
-* Método de Interpolación de Lagrange.
-* Método de Interpolación Polinómica de Newton.
-* Método de Interpolación de Vandermonde.
+* [Interpolación Simple.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/07.%20Interpolacion%20Simple/InterpolacionSimple.m)
+* [Ajuste de Curvas.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/08.%20Ajuste%20de%20Curvas/AjusteDeCurvas.m)
+* [Método de Interpolación de Lagrange.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/tree/master/09.%20Interpolacion%20de%20Lagrange)
+* [Método de Interpolación Polinómica de Newton.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/10.%20Interpolacion%20Polinomica%20de%20Newton/InterpolacionPolinomicaDeNewton.m)
+* [Método de Interpolación de Vandermonde.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/11.%20Interpolacion%20de%20Vandermonde/InterpolacionDeVandermonde.m)
 
 ## Integración Numérica.
-* Método del trapecio (Integración Numérica).
-* Método de Simpson Simple 1/3.
-* Método de Simpson Simple 3/8.
+* [Método del trapecio.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/12.%20Metodo%20del%20Trapecio/MetodoDelTrapecio.m)
+* [Método de Simpson Simple 1/3.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/13.%20Metodo%20de%20Simpson%20un%20tercio/MetodoDeSimpsonUnTercio.m)
+* [Método de Simpson Simple 3/8.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/14.%20Metodo%20de%20Simpson%203_8/MetodoDeSimpson3_8.m)
 
 # Resolución de Ecuaciones Diferenciales.
-* Método de Euler.
-* Método de Euler mejorado (Heun).
-* Método de Runge Kutta de Cuarto Orden.
+* [Método de Euler.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/15.%20Metodo%20de%20Euler/MetodoDeEuler.m)
+* [Método de Euler mejorado (Heun).](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/16.%20Metodo%20de%20Euler%20Mejorado%20(Heun)/MetodoDeEulerMejorado.m)
+* [Método de Runge Kutta de Cuarto Orden.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/17.%20Metodo%20de%20Runge%20Kutta%20de%20Cuarto%20Orden/RungeKutta.m)
 
 # Mis redes sociales
 
