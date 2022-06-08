@@ -22,6 +22,9 @@ Los métodos numéricos presentes en el repositorio son:
 * [Método de Interpolación Polinómica de Newton.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/10.%20Interpolacion%20Polinomica%20de%20Newton/InterpolacionPolinomicaDeNewton.m)
 * [Método de Interpolación de Vandermonde.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/11.%20Interpolacion%20de%20Vandermonde/InterpolacionDeVandermonde.m)
 
+## Sistemas de Ecuaciones Lineales.
+* [Método de eliminación de Gauss-Jordan](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/tree/master/19.%20Metodo%20de%20Eliminacion%20de%20Gauss-Jordan)
+
 ## Diferenciación Numérica.
 * [Método de extrapolación de Richardson.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/04.%20Metodo%20de%20Richardson/MetodoDeRichardson.m)
 
