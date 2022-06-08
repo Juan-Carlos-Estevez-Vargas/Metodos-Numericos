@@ -1,24 +1,33 @@
-# Metodos-Numericos
+# Metodos Numericos
 Repositorio con los ejercicios realizados en la materia MODELADO Y ANÁLISIS NUMÉRICO de la Fundación Universitaria de San Gil UNISANGIL.
 
 Los ejercicios están divididos en carpetas, las cuales cada una de ellas consta de un archivo principal y una función auxiliar, la cual se encarga de realizar el método numérico como tal.
 
 Los métodos numéricos presentes en el repositorio son:
 
+## Raices de funciones lineales.
 * Cálculo de las raíces de diferentes tipos de funciones.
+
+## Raices de funciones NO lineales.
 * Método de bisección.
 * Método de la falsa posición o regla falsa.
 * Método de extrapolación de Richardson (Diferenciación Numérica).
 * Método de Newton-Raphson.
 * Método del Punto Fijo.
+
+## Interpolación y Ajuste de Curvas.
 * Interpolación Simple.
 * Ajuste de Curvas.
 * Método de Interpolación de Lagrange.
 * Método de Interpolación Polinómica de Newton.
 * Método de Interpolación de Vandermonde.
+
+## Integración Numérica.
 * Método del trapecio (Integración Numérica).
 * Método de Simpson Simple 1/3.
 * Método de Simpson Simple 3/8.
+
+# Resolución de Ecuaciones Diferenciales.
 * Método de Euler.
 * Método de Euler mejorado (Heun).
 * Método de Runge Kutta de Cuarto Orden.
