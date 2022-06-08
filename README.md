@@ -9,7 +9,7 @@ Los métodos numéricos presentes en el repositorio son:
 * Cálculo de las raíces de diferentes tipos de funciones.
 
 ## Raices de funciones NO lineales.
-* Método de bisección.
+* [Método de bisección.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/tree/master/02.%20Metodo%20de%20Biseccion)
 * Método de la falsa posición o regla falsa.
 * Método de extrapolación de Richardson (Diferenciación Numérica).
 * Método de Newton-Raphson.
