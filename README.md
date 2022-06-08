@@ -11,7 +11,6 @@ Los métodos numéricos presentes en el repositorio son:
 ## Raices de funciones NO lineales.
 * [Método de bisección.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/tree/master/02.%20Metodo%20de%20Biseccion)
 * [Método de la falsa posición o regla falsa.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/tree/master/03.%20Metodo%20Regla%20Falsa)
-* Método de extrapolación de Richardson (Diferenciación Numérica).
 * [Método de Newton-Raphson.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/tree/master/05.%20Metodo%20Newton-Raphson)
 * [Método del Punto Fijo.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/tree/master/06.%20Metodo%20del%20Punto%20Fijo)
 * [Método de la Secante](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/18.%20Metodo%20de%20la%20Secante/MetodoDeLaSecante.m)
@@ -23,12 +22,15 @@ Los métodos numéricos presentes en el repositorio son:
 * [Método de Interpolación Polinómica de Newton.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/10.%20Interpolacion%20Polinomica%20de%20Newton/InterpolacionPolinomicaDeNewton.m)
 * [Método de Interpolación de Vandermonde.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/11.%20Interpolacion%20de%20Vandermonde/InterpolacionDeVandermonde.m)
 
+## Diferenciación Numérica.
+* [Método de extrapolación de Richardson.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/04.%20Metodo%20de%20Richardson/MetodoDeRichardson.m)
+
 ## Integración Numérica.
 * [Método del trapecio.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/12.%20Metodo%20del%20Trapecio/MetodoDelTrapecio.m)
 * [Método de Simpson Simple 1/3.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/13.%20Metodo%20de%20Simpson%20un%20tercio/MetodoDeSimpsonUnTercio.m)
 * [Método de Simpson Simple 3/8.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/14.%20Metodo%20de%20Simpson%203_8/MetodoDeSimpson3_8.m)
 
-# Resolución de Ecuaciones Diferenciales.
+## Resolución de Ecuaciones Diferenciales.
 * [Método de Euler.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/15.%20Metodo%20de%20Euler/MetodoDeEuler.m)
 * [Método de Euler mejorado (Heun).](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/16.%20Metodo%20de%20Euler%20Mejorado%20(Heun)/MetodoDeEulerMejorado.m)
 * [Método de Runge Kutta de Cuarto Orden.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/17.%20Metodo%20de%20Runge%20Kutta%20de%20Cuarto%20Orden/RungeKutta.m)
