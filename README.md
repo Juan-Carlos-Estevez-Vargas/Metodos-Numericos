@@ -6,7 +6,7 @@ Los ejercicios están divididos en carpetas, las cuales cada una de ellas consta
 Los métodos numéricos presentes en el repositorio son:
 
 ## Raices de funciones lineales.
-* [Cálculo de las raíces de diferentes tipos de funciones.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/tree/master/01.%20Funciones)
+* [Cálculo de las raíces de diferentes tipos de funciones.]()
 
 ## Raices de funciones NO lineales.
 * [Método de bisección.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/tree/master/02.%20Metodo%20de%20Biseccion)
@@ -18,7 +18,7 @@ Los métodos numéricos presentes en el repositorio son:
 ## Interpolación y Ajuste de Curvas.
 * [Interpolación Simple.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/07.%20Interpolacion%20Simple/InterpolacionSimple.m)
 * [Ajuste de Curvas.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/08.%20Ajuste%20de%20Curvas/AjusteDeCurvas.m)
-* [Método de Interpolación de Lagrange.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/tree/master/09.%20Interpolacion%20de%20Lagrange)
+* [Método de Interpolación de Lagrange.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/09.%20Interpolacion%20de%20Lagrange/InterpolacionDeLagrange.m)
 * [Método de Interpolación Polinómica de Newton.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/10.%20Interpolacion%20Polinomica%20de%20Newton/InterpolacionPolinomicaDeNewton.m)
 * [Método de Interpolación de Vandermonde.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/11.%20Interpolacion%20de%20Vandermonde/InterpolacionDeVandermonde.m)
 
@@ -35,7 +35,7 @@ Los métodos numéricos presentes en el repositorio son:
 
 ## Resolución de Ecuaciones Diferenciales.
 * [Método de Euler.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/15.%20Metodo%20de%20Euler/MetodoDeEuler.m)
-* [Método de Euler mejorado (Heun).](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/16.%20Metodo%20de%20Euler%20Mejorado%20(Heun)/MetodoDeEulerMejorado.m)
+* [Método de Euler mejorado (Heun).]()
 * [Método de Runge Kutta de Cuarto Orden.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/17.%20Metodo%20de%20Runge%20Kutta%20de%20Cuarto%20Orden/RungeKutta.m)
 
 # Mis redes sociales
