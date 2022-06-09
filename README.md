@@ -9,16 +9,28 @@ Los métodos numéricos presentes en el repositorio son:
 * [Cálculo de dominio de diferentes tipos de funciones.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/CalculadoraDominioDeFunciones.m)
 * [Función Lineal](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionLineal.m)
 * [Función Cuadrática](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionCuadratica.m)
-* #### Función Racional.
+* [Función Radical](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/FuncionRadicalCaso1.m)
+
+* ### Función Racional.
+
 * [Función Racional de la forma (a / bx + c)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionRacionalCaso1.m)
 * [Función Racional de la forma (ax + b) / (cx + d)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionRacionalCaso2.m)
 * [Función Racional de la forma (ax^2 + bx + c) / (dx + e)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionRacionalCaso3.m)
 * [Función Racional de la forma (ax + b) / (cx^2 + dx + e)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionRacionalCaso4.m)
+
+* ### Función Logarítmica.
+
 * [Función Logaritmica de la forma loga(bx + c)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionLogaritmicaCaso1.m)
 * [Función Logarítmica de la forma loga((bx + c) / dx + e)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionLogaritmicaCaso2.m)
 * [Función Logarítmica de la forma loga(bx^2 + cx + d) / (ex + f)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionLogaritmicaCaso3.m)
 * [Función Logarítmica de la forma (loga((bx + c) / (dx^2 + ex + f))](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionLogaritmicaCaso4.m)
-* []
+
+* ### Función Exponencial.
+
+* [Función Exponencial de la forma a^(bx + c)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionExponencialCaso1.m)
+* [Función Exponencial de la forma a^((bx + c) / (dx + e))](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionExponencialCaso2.m)
+* [Función Exponencial de la forma a^((bx^2 + cx + d) / (ex + f))](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionExponencialCaso3.m)
+* [Función Exponencial de la forma ^((Bx + C) / (Dx^2 + Ex + F))](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionExponencialCaso4.m)
 
 ## Raices de funciones NO lineales.
 * [Método de bisección.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/tree/master/02.%20Metodo%20de%20Biseccion)
