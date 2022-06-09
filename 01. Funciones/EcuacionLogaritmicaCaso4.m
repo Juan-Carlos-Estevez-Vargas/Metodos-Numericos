@@ -1,6 +1,21 @@
+% Autor: Juan Carlos Estevez Vargas
+% Canal de Youtube: Apuntes de un Ingeniero
+% Actualizado: 9/junio/2022
+
+% ------- DESCRIPCIÓN ----------------------------------------------------
+% Calcula el dominio y rango de una función logaritmica de tipo 
+% (loga((bx + c) / (dx^2 + ex + f))
+% ------------------------------------------------------------------------
+
+% ------- ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA: -------------
+% A, B, C, D, E, F = Coeficientes que pertenecen a la ecuación.
+% ------------------------------------------------------------------------
+
+% ------- VARIABLES DE SALIDA: -------------------------------------------
+% Dominio de la función.
+% -----------------------------------------------------------------------
+
 function EcuacionLogaritmicaCaso4()
-clc
-clear all;
 
 disp ('Calculo del dominio y rango de funciones');
 disp ('Funcion Logarítmica Caso 4');

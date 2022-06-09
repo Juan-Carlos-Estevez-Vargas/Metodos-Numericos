@@ -1,3 +1,20 @@
+% Autor: Juan Carlos Estevez Vargas
+% Canal de Youtube: Apuntes de un Ingeniero
+% Actualizado: 9/junio/2022
+
+% ------- DESCRIPCIÓN ----------------------------------------------------
+% Calcula el dominio y rango de una función cuadrática de tipo 
+% ax^2 + bx + c
+% ------------------------------------------------------------------------
+
+% ------- ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA: -------------
+% A, B, C = Coeficientes que pertenecen a la ecuación.
+% ------------------------------------------------------------------------
+
+% ------- VARIABLES DE SALIDA: -------------------------------------------
+% Dominio de la función.
+% -----------------------------------------------------------------------
+
 function EcuacionCuadratica
 clear all;
 clc;

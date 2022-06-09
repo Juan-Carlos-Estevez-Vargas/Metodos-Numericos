@@ -1,6 +1,21 @@
+% Autor: Juan Carlos Estevez Vargas
+% Canal de Youtube: Apuntes de un Ingeniero
+% Actualizado: 9/junio/2022
+
+% ------- DESCRIPCIÓN ----------------------------------------------------
+% Calcula el dominio y rango de una función racional de tipo 
+% ((ax + b) / (cx + d)
+% ------------------------------------------------------------------------
+
+% ------- ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA: -------------
+% A, B, C, D = Coeficientes que pertenecen a la ecuación.
+% ------------------------------------------------------------------------
+
+% ------- VARIABLES DE SALIDA: -------------------------------------------
+% Dominio de la función.
+% -----------------------------------------------------------------------
+
 function EcuacionRacionalCaso2
-clc
-clear all;
 
 disp ('Calculo del dominio y rango de funciones');
 disp ('Funcion Racional Caso 2');

@@ -1,6 +1,21 @@
+% Autor: Juan Carlos Estevez Vargas
+% Canal de Youtube: Apuntes de un Ingeniero
+% Actualizado: 9/junio/2022
+
+% ------- DESCRIPCIÓN ----------------------------------------------------
+% Calcula el dominio y rango de una función logaritmica de tipo 
+% loga(bx + c)
+% ------------------------------------------------------------------------
+
+% ------- ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA: -------------
+% a, b, c = Coeficientes que pertenecen a la ecuación.
+% ------------------------------------------------------------------------
+
+% ------- VARIABLES DE SALIDA: -------------------------------------------
+% Dominio de la función.
+% -----------------------------------------------------------------------
+
 function EcuacionLogaritmicaCaso1()
-clc
-clear all;
 
 disp ('Calculo del dominio y rango de funciones');
 disp ('Funcion Logarítmica Caso 1');

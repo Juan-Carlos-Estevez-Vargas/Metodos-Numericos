@@ -1,7 +1,21 @@
-function EcuacionLineal()
+% Autor: Juan Carlos Estevez Vargas
+% Canal de Youtube: Apuntes de un Ingeniero
+% Actualizado: 9/junio/2022
 
-clc
-clear all;
+% ------- DESCRIPCIÓN ----------------------------------------------------
+% Calcula el dominio y rango de una función lineal de tipo 
+% (ax + b)
+% ------------------------------------------------------------------------
+
+% ------- ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA: -------------
+% a, b = Coeficientes que pertenecen a la ecuación.
+% ------------------------------------------------------------------------
+
+% ------- VARIABLES DE SALIDA: -------------------------------------------
+% Dominio de la función.
+% -----------------------------------------------------------------------
+
+function EcuacionLineal()
 
 disp ('Calculo del dominio y rango de funciones');
 disp ('Funcion lineal');
@@ -14,6 +28,5 @@ x = -50:0.01:50;
 y = a*x + b;
 
 plot (x,y);
-
 
 disp ('El dominio es: (-?, ?)');

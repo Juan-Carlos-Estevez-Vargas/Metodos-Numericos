@@ -1,3 +1,20 @@
+% Autor: Juan Carlos Estevez Vargas
+% Canal de Youtube: Apuntes de un Ingeniero
+% Actualizado: 9/junio/2022
+
+% ------- DESCRIPCIÓN ----------------------------------------------------
+% Calcula el dominio y rango cualquier tipo de función (que se encuentre en 
+% el menú de opciones). 
+% ------------------------------------------------------------------------
+
+% ------- ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA: -------------
+% opc = Opción suministrada por el usuario.
+% ------------------------------------------------------------------------
+
+% ------- VARIABLES DE SALIDA: -------------------------------------------
+% Dominio de la función elegida por el usuario.
+% -----------------------------------------------------------------------
+
 clc
 clear all;
 opc = 0

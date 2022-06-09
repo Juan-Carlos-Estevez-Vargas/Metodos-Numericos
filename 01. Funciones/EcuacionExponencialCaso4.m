@@ -1,6 +1,21 @@
+% Autor: Juan Carlos Estevez Vargas
+% Canal de Youtube: Apuntes de un Ingeniero
+% Actualizado: 9/junio/2022
+
+% ------- DESCRIPCIÓN ----------------------------------------------------
+% Calcula el dominio y rango de una función exponencial de tipo 
+% A^((Bx + C) / (Dx^2 + Ex + F))
+% ------------------------------------------------------------------------
+
+% ------- ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA: -------------
+% A, B, C, D, E, F = Coeficientes que pertenecen a la ecuación.
+% ------------------------------------------------------------------------
+
+% ------- VARIABLES DE SALIDA: -------------------------------------------
+% Dominio de la función.
+% -----------------------------------------------------------------------
+
 function EcuacionExponencialCaso4()
-clc
-clear all;
 
 disp ('Calculo del dominio y rango de funciones');
 disp ('Funcion Racional Caso 4');

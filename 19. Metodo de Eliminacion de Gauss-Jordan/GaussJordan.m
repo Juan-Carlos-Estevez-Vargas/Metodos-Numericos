@@ -1,20 +1,23 @@
-%Autor: Juan Carlos Estevez Vargas
-%Canal de Youtube: Apuntes de un Ingeniero
-%Versión: 2.1
-%Actualizado: 8/junio/2022
+% Autor: Juan Carlos Estevez Vargas
+% Canal de Youtube: Apuntes de un Ingeniero
+% Actualizado: 9/junio/2022
 
-% ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA:
+% ------- DESCRIPCIÓN ----------------------------------------------------
+% Aproxima una EDO por medio del método de Euler Mejorado (HEUN).
+% ------------------------------------------------------------------------
 
+% ------- ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA: -------------
 % A = matriz cuadrada de coeficientes del sistema de ecuaciones.
 % B = Vector columna de resultados de cada ecuación.
+% ------------------------------------------------------------------------
 
-% VARIABLES DE SALIDA:
-
+% ------- VARIABLES DE SALIDA: -------------------------------------------
 % x = vector con los valore para todas las variables del sistema de
 % ecuaciones.
+% -----------------------------------------------------------------------
 
-function x = GaussJordan(A,B)
-
+function GaussJordan(A, B)
+clc
 %~~~~~~~~~~~~~~~Protección contra errores en las entradas~~~~~~~~~~~~~~~~~%
 if nargin ~= 2                 
     error('Se debe ingresar una matriz cuadrada A y un vector columna B');
