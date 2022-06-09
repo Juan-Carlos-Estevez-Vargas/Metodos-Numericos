@@ -9,8 +9,9 @@ Los métodos numéricos presentes en el repositorio son:
 * [Cálculo de dominio de diferentes tipos de funciones.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/CalculadoraDominioDeFunciones.m)
 * [Función Lineal](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionLineal.m)
 * [Función Cuadrática](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionCuadratica.m)
+* #### Función Racional.
 * [Función Racional de la forma (a / bx + c)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionRacionalCaso1.m)
-** [Función Racional de la forma (ax + b) / (cx + d)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionRacionalCaso2.m)
+* [Función Racional de la forma (ax + b) / (cx + d)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionRacionalCaso2.m)
 * [Función Racional de la forma (ax^2 + bx + c) / (dx + e)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionRacionalCaso3.m)
 * [Función Racional de la forma (ax + b) / (cx^2 + dx + e)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionRacionalCaso4.m)
 * [Función Logaritmica de la forma loga(bx + c)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionLogaritmicaCaso1.m)
