@@ -1,3 +1,23 @@
+% Autor: Juan Carlos Estevez Vargas
+% Canal de Youtube: Apuntes de un Ingeniero
+% Actualizado: 9/junio/2022
+
+% ------- DESCRIPCIÓN ----------------------------------------------------
+% Aproxima una EDO por medio del método de Euler Mejorado (HEUN).
+% ------------------------------------------------------------------------
+
+% ------- ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA: -------------
+% a = Primer valor del rango; ejemplo 1
+% b = Último valor del rango; ejemplo 1.5
+% h = Valor del paso; ejemplo 0.1
+% f = función en la forma dy/dt; ejemplo 2*x*y
+% D = Solución exacta de forma explícita; ejemplo (1/exp)*exp^(x^2)
+% ------------------------------------------------------------------------
+
+% ------- VARIABLES DE SALIDA: -------------------------------------------
+% Tabla con las iteraciones realizadas y sus respectivos valores.
+% -----------------------------------------------------------------------
+clc
 syms y t;
 a = input('Ingrese el primer valor del rango: ');
 b = input('Ingrese el último valor del rango: ');

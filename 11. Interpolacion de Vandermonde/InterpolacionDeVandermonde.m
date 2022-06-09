@@ -1,18 +1,22 @@
-% Interpola un grupo de puntos por el método de Vandermonde.
-
 % Autor: Juan Carlos Estevez Vargas
 % Canal de Youtube: Apuntes de un Ingeniero
-% Actualizado: 8/junio/2022
+% Actualizado: 9/junio/2022
 
-% ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA:
+% ------- DESCRIPCIÓN ----------------------------------------------------
+% Interpola un grupo de puntos por el método de Vandermonde.
+% ------------------------------------------------------------------------
 
+% ------- ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA: -------------
 % equis = Vector fila con los valores de X; ejemplo [-1 0 2 3].
 % fx = Vector fila del mismo tamaño de equis con los valores de Y; ejemplo [3 7 5 9].
+% ------------------------------------------------------------------------
 
-% VARIABLES DE SALIDA:
-
+% ------- VARIABLES DE SALIDA: -------------------------------------------
 % Gráfica de la función Interpolada por el método de Vandermonde.
 % modelo = Polinomio interpolador de Vandermonde.
+% -----------------------------------------------------------------------
+
+clc
 
 syms x;
 format rat

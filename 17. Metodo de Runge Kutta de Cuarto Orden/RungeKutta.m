@@ -1,22 +1,26 @@
-%Autor: Juan Carlos Estevez Vargas
-%Canal de Youtube: Apuntes de un Ingeniero
-%Actualizado: 8/junio/2022
+% Autor: Juan Carlos Estevez Vargas
+% Canal de Youtube: Apuntes de un Ingeniero
+% Actualizado: 9/junio/2022
 
-% ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA:
+% ------- DESCRIPCIÓN ----------------------------------------------------
+% Calcula el punto aproximado Y(x0) de una ecuación diferencial por el
+% método de Runge Kutta de cuarto orden.
+% ------------------------------------------------------------------------
 
-% f = Ecuación diferencial (Sólo ingresa la función) ejemplo: 
-%       Sea la ecuación diferendial dy/dx = x + y se debe ingresar solo x + y.
-% x0 = Valor inicial de X.
-% x1 = Valor final de X.
-% y0 = Valor de Y a operar en la EDO.
-% n = Cantidad entera de iteraciones que se deseen.
+% ------- ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA: -------------
+% f = Ecuación diferencial (Sólo ingresa la función) ejemplo: (y + 3)*(x - 4)
+% x0 = Valor inicial de X; ejemplo 1
+% x1 = Valor final de X; ejemplo 1.6
+% y0 = Valor de Y a operar en la EDO; ejemplo 4
+% n = Cantidad entera de iteraciones que se deseen; ejemplo 10
+% ------------------------------------------------------------------------
 
-% VARIABLES DE SALIDA:
-
+% ------- VARIABLES DE SALIDA: -------------------------------------------
 % y0 = Punto aproximado y(x1) encontrado del algoritmo mediante el método
 %       de Runge Kutta.
 % También se presenta la gráfica de la función (EDO) aproximada por el
 %       método numérico.
+% -----------------------------------------------------------------------
 
 function f
 clc

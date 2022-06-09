@@ -1,18 +1,21 @@
-% Calcula el valor aproximado de una integral definida mediante el método
-% de simpson simple 3/8.
 % Autor: Juan Carlos Estevez Vargas
 % Canal de Youtube: Apuntes de un Ingeniero
-% Actualizado: 8/junio/2022
+% Actualizado: 9/junio/2022
 
-% ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA:
+% ------- DESCRIPCIÓN ----------------------------------------------------
+% Calcula el valor aproximado de una integral definida mediante el método
+% de simpson simple 3/8.
+% ------------------------------------------------------------------------
 
+% ------- ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA: -------------
 % f = La función de tipo f(x); ejemplo 5*x^2.
 % b = Límite superior de la integral; ejemplo 4.
 % a = Límite inferior de la integral: ejemplo 1.
+% ------------------------------------------------------------------------
 
-% VARIABLES DE SALIDA:
-
+% ------- VARIABLES DE SALIDA: -------------------------------------------
 % STO = Cálculo del área aproximada de la integral.
+% -----------------------------------------------------------------------
 
 function MetodoDeSimpson3_8()
 clc

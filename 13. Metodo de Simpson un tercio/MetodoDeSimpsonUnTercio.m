@@ -1,17 +1,21 @@
 % Autor: Juan Carlos Estevez Vargas
 % Canal de Youtube: Apuntes de un Ingeniero
-% Actualizado: 8/junio/2022
+% Actualizado: 9/junio/2022
 
-% ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA:
+% ------- DESCRIPCIÓN ----------------------------------------------------
+% Encuentra el resultado de una integral definida por medio de trapecios.
+% ------------------------------------------------------------------------
 
+% ------- ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA: -------------
 % f = La función de tipo f(x); ejemplo 5*x^3.
 % b = Límite superior de la integral; ejemplo 5.
 % a = Límite inferior de la integral; ejemplo 0.
 % n = número de intervalor; ejemplo 10.
+% ------------------------------------------------------------------------
 
-% VARIABLES DE SALIDA:
-
+% ------- VARIABLES DE SALIDA: -------------------------------------------
 % I = Cálculo del área aproximada de la integral definida.
+% -----------------------------------------------------------------------
 
 clc
 

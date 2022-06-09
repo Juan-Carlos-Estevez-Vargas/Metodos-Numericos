@@ -1,20 +1,23 @@
-% Calcula el valor de una integral definida mediante el método del
-% trapecio.
-
 % Autor: Juan Carlos Estevez Vargas
 % Canal de Youtube: Apuntes de un Ingeniero
-% Actualizado: 8/junio/2022
+% Actualizado: 9/junio/2022
 
-% ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA:
+% ------- DESCRIPCIÓN ----------------------------------------------------
+% Calcula el valor de una integral definida mediante el método del
+% trapecio.
+% ------------------------------------------------------------------------
 
+% ------- ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA: -------------
 % f = La función de tipo f(x); ejemplo 5*x-4*x^5.
 % b = Límite superior de la integral; ejemplo 3.
 % a = Límite inferior de la integral: ejemplo 1.
 % n = Número de intervalos; ejemplo 15.
+% ------------------------------------------------------------------------
 
-% VARIABLES DE SALIDA:
-
-% s = Cálculo del área aproximada de la integral definida en el número de intervalos ingresados.
+% ------- VARIABLES DE SALIDA: -------------------------------------------
+% s = Cálculo del área aproximada de la integral definida en el número de 
+%     intervalos ingresados.
+% -----------------------------------------------------------------------
 
 clc;
 
