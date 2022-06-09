@@ -1,3 +1,23 @@
+% Autor: Juan Carlos Estevez Vargas
+% Canal de Youtube: Apuntes de un Ingeniero
+% Actualizado: 9/junio/2022
+
+% ------- DESCRIPCIÓN ----------------------------------------------------
+% Calcula el valor de la derivada de una función suministrada por el
+% usuario en un punto en específico.
+% ------------------------------------------------------------------------
+
+% ------- ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA: -------------
+% fun = Ecuación o poliniomio a operar; ejemplo x^4-x
+% x0 = Valor a calcular en la derivada; ejemplo 7
+% h = Valor del paso; ejemplo 0.1
+% tol = Valor del error permitido: ejemplo 0.0001.
+% ------------------------------------------------------------------------
+
+% ------- VARIABLES DE SALIDA: -------------------------------------------
+% Valor encontrado.
+% -----------------------------------------------------------------------
+
 function MetodoDeRichardson
 
 global fun
@@ -30,4 +50,4 @@ while (err > tol)
 end
 
 [n, n] = size(D);
-fprintf('El valor aproximado calculado es: %1.15f', D(n, n));
+fprintf('El valor aproximado calculado es: %1.3f', D(n, n));

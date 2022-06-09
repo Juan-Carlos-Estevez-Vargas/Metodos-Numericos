@@ -1,3 +1,18 @@
+% Autor: Juan Carlos Estevez Vargas
+% Canal de Youtube: Apuntes de un Ingeniero
+% Actualizado: 8/junio/2022
+
+% ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA:
+
+% f = La función de tipo f(x); ejemplo 5*x^3.
+% b = Límite superior de la integral; ejemplo 5.
+% a = Límite inferior de la integral; ejemplo 0.
+% n = número de intervalor; ejemplo 10.
+
+% VARIABLES DE SALIDA:
+
+% I = Cálculo del área aproximada de la integral definida.
+
 clc
 
 fprintf('\t\tCALCULO DEL AREA POR EL METODO DE SiIMPSON 1/3\n');
@@ -26,4 +41,4 @@ for i=1:n
 end
 
 I=(h/6)*(p+2*s1+4*s2+q);
-fprintf('El area aproximada es: %10.15f\n\n',I);
+fprintf('El area aproximada es: %10.5f\n\n',I);

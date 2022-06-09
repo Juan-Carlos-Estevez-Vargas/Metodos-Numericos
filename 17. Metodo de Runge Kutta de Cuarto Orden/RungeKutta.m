@@ -1,3 +1,23 @@
+%Autor: Juan Carlos Estevez Vargas
+%Canal de Youtube: Apuntes de un Ingeniero
+%Actualizado: 8/junio/2022
+
+% ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA:
+
+% f = Ecuación diferencial (Sólo ingresa la función) ejemplo: 
+%       Sea la ecuación diferendial dy/dx = x + y se debe ingresar solo x + y.
+% x0 = Valor inicial de X.
+% x1 = Valor final de X.
+% y0 = Valor de Y a operar en la EDO.
+% n = Cantidad entera de iteraciones que se deseen.
+
+% VARIABLES DE SALIDA:
+
+% y0 = Punto aproximado y(x1) encontrado del algoritmo mediante el método
+%       de Runge Kutta.
+% También se presenta la gráfica de la función (EDO) aproximada por el
+%       método numérico.
+
 function f
 clc
 fprintf('\tResolución de Ecuaciones diferenciales por el método de Runge Kutta\n');

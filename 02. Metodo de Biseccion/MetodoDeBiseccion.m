@@ -1,4 +1,28 @@
-%Calcula una tabla de valores de ini a fin con un intervalo de h para una determinada ecuacion
+% Autor: Juan Carlos Estevez Vargas
+% Canal de Youtube: Apuntes de un Ingeniero
+% Actualizado: 9/junio/2022
+
+% ------- DESCRIPCIÓN ----------------------------------------------------
+% Calcula una tabla de valores de ini a fin con un intervalo de h para una
+% determinada ecuación para posteriormente calcular las semillas de dicha
+% función y llamar la función 'Biseccion' la cuál se encarga de calcular la
+% raiz.
+% ------------------------------------------------------------------------
+
+% ------- ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA: -------------
+% ecuacion = Ecuación o poliniomio a evaluar; ejemplo 3*x^2-2*x.
+% ini = Valor inicial a calcular la tabla de valores de la función; ejemplo -10.
+% fin = Valor final a calcular la tabla de valores de la función; ejemplo 10.
+% h = Incremento o paso de la tabla de valores; ejemplo 1.
+% ------------------------------------------------------------------------
+
+% ------- VARIABLES DE SALIDA: -------------------------------------------
+% Gráfica de la función ingresada
+% Tabla de valores generada.
+% Semillas de la función.
+% Llamado al método de Bisección el cual calcula las raices de la función.
+% -----------------------------------------------------------------------
+
 clc
 y = [];
 x = [];
@@ -60,4 +84,3 @@ for i=1: length(x),
         end
     end
 end;
-clear;

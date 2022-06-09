@@ -1,4 +1,31 @@
-%Calcula una tabla de valores de ini a fin con un intervalo de h para una determinada ecuacion
+% Autor: Juan Carlos Estevez Vargas
+% Canal de Youtube: Apuntes de un Ingeniero
+% Actualizado: 9/junio/2022
+
+% ------- DESCRIPCIÓN ----------------------------------------------------
+% Calcula una tabla de valores de ini a fin con un intervalo de h para una
+% determinada ecuación para posteriormente calcular las semillas de dicha
+% función y llamar la función 'PuntoFijo' la cuál se encarga de calcular la
+% raiz.
+% ------------------------------------------------------------------------
+
+% ------- ESTA FUNCION PIDE LOS SIGUIENTES DATOS DE ENTRADA: -------------
+% ecuacion = Ecuación o poliniomio a evaluar; ejemplo 4*x^2+x^3-10.
+% ini = Valor inicial a calcular la tabla de valores de la función; ejemplo -10.
+% fin = Valor final a calcular la tabla de valores de la función; ejemplo 10.
+% h = Incremento o paso de la tabla de valores; ejemplo 1.
+% z = g(x) en comillas simples la cuál es la función despejada sonde el 
+%     resultado converge; ejemplo ((10-x^3)/4)^1/2.
+% tol = Error máximo permitido; ejemplo 0.001.
+% ------------------------------------------------------------------------
+
+% ------- VARIABLES DE SALIDA: -------------------------------------------
+% Gráfica de la función ingresada
+% Tabla de valores generada.
+% Semillas de la función.
+% Llamado al método de PuntoFijo el cual calcula las raices de la función.
+% -----------------------------------------------------------------------
+
 clc
 y = [];
 x = [];

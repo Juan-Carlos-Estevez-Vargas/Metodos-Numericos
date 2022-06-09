@@ -1,4 +1,20 @@
-function MetodoDeLaSecante(f, x0, x1)
+%Autor: Juan Carlos Estevez Vargas
+%Canal de Youtube: Apuntes de un Ingeniero
+%Actualizado: 8/junio/2022
+
+% ESTA FUNCIÓN PIDE LOS SIGUIENTES DATOS DE ENTRADA:
+
+% f = función a operar.
+% x0 = Primer punto de operación, primer valor de intervalo [a, b].
+% x1 = Segundo punto de operación, valor de cierre del intervalo [a, b].
+% tol = Tolerancia permitida en el programa (ejemplo: 10^-4 o 0.001).
+
+% VARIABLES DE SALIDA:
+
+% i = Número de iteraciones realizadas en el sistema.
+% x2 = Raíz encontrada de la función f.
+
+function MetodoDeLaSecante()
 clear
 clc
 f = input('Ingrese la función: ','s');
