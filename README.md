@@ -49,6 +49,7 @@ Los métodos numéricos presentes en el repositorio son:
 ## Sistemas de Ecuaciones Lineales.
 * [Método de eliminación de Gauss-Jordan](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/tree/master/19.%20Metodo%20de%20Eliminacion%20de%20Gauss-Jordan)
 * [Método de Jacobi](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/20.%20Metodo%20de%20Jacobi/MetodoDeJacobi.m)
+* [Método de Gauss-Seidel](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/21.%20Metodo%20de%20Gauss-Seidel/gauss_seidel.m)
 
 ## Diferenciación Numérica.
 * [Método de extrapolación de Richardson.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/04.%20Metodo%20de%20Richardson/MetodoDeRichardson.m)
