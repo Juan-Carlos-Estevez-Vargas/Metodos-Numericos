@@ -11,21 +11,21 @@ Los métodos numéricos presentes en el repositorio son:
 * [Función Cuadrática](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionCuadratica.m)
 * [Función Radical](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/FuncionRadicalCaso1.m)
 
-* ### Función Racional.
+### Función Racional.
 
 * [Función Racional de la forma (a / bx + c)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionRacionalCaso1.m)
 * [Función Racional de la forma (ax + b) / (cx + d)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionRacionalCaso2.m)
 * [Función Racional de la forma (ax^2 + bx + c) / (dx + e)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionRacionalCaso3.m)
 * [Función Racional de la forma (ax + b) / (cx^2 + dx + e)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionRacionalCaso4.m)
 
-* ### Función Logarítmica.
+### Función Logarítmica.
 
 * [Función Logaritmica de la forma loga(bx + c)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionLogaritmicaCaso1.m)
 * [Función Logarítmica de la forma loga((bx + c) / dx + e)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionLogaritmicaCaso2.m)
 * [Función Logarítmica de la forma loga(bx^2 + cx + d) / (ex + f)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionLogaritmicaCaso3.m)
 * [Función Logarítmica de la forma (loga((bx + c) / (dx^2 + ex + f))](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionLogaritmicaCaso4.m)
 
-* ### Función Exponencial.
+### Función Exponencial.
 
 * [Función Exponencial de la forma a^(bx + c)](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionExponencialCaso1.m)
 * [Función Exponencial de la forma a^((bx + c) / (dx + e))](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/01.%20Funciones/EcuacionExponencialCaso2.m)
@@ -64,10 +64,6 @@ Los métodos numéricos presentes en el repositorio son:
 * [Método de Euler mejorado (Heun).]()
 * [Método de Runge Kutta de Cuarto Orden.](https://github.com/Juan-Carlos-Estevez-Vargas/Metodos-Numericos/blob/master/17.%20Metodo%20de%20Runge%20Kutta%20de%20Cuarto%20Orden/RungeKutta.m)
 
-# Mis redes sociales
-
- <a href="https://www.youtube.com/channel/UCEUrVWPMTrXIWzn5CwnjYhQ" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="uceurvwpmtrxiwzn5cwnjyhq" height="30" width="40" /></a> 
-<a href="https://instagram.com/juankestevez" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="juankestevez" height="30" width="40" /></a>
- <a href="https://linkedin.com/in/juan-carlos-estevez-vargas-4abb8b14a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="juan-carlos-estevez-vargas-4abb8b14a/" height="30" width="40" /></a> 
- <a href="https://codepen.io/juan-carlos-estevez-vargas" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="juan-carlos-estevez-vargas" height="30" width="40" /></a>
+## 🌐 Socials:
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/juancarlos.estevezvargas.98) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/juankestevez) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/juan-carlos-estevez-vargas) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@apuntesdeuningeniero) 
 
